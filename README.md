@@ -9,11 +9,17 @@ Spring Boot API Project Seed 是一个基于Spring Boot & MyBatis的种子项目
 
 ## 示例
 查找指定 albumKey 的单条记录
+
 ![查找指定 albumKey 的单条记录](./eg.gif)
+
 查找指定 userId 的 List<Album>
+    
 ![查找指定 userId 的 List<Album>](./eg2.gif)
+    
 指定的 albumKey pageView 字段 +1
+
 ![指定的 albumKey pageView 字段 +1](./eg3.gif)
+
 ### 筛选单条记录
 #### 全匹配
 select * from album where `id`=${id}
